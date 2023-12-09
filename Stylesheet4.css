@@ -1,0 +1,471 @@
+*/*this is to set bg of all pages to black*/
+{
+    background-color: #ffffff; 
+}
+
+p 
+{
+    color: black; 
+    font-family: Bahnschrift; 
+    font-size: 20px; 
+    
+}
+
+
+.newP
+{
+    color: black; 
+    font-family: Bahnschrift; 
+    font-size: 20px; 
+    background-color: #19360b
+    
+}
+
+
+.header /*page title*/
+{
+    color: white; 
+    background-color: #FF6D00; 
+    font-size: 60px; 
+    margin-top: 25px; 
+    margin-left: 15px; 
+    margin-right: 15px; 
+    text-align: center; 
+    padding: 30px; 
+    margin-bottom: 15px; 
+}
+
+.button-container
+{
+    display: flex;
+    justify-content: center;
+    margin-left:auto;
+    margin-right:auto;
+    font-size: 20px; 
+    background-color:#6900FF;
+    font-family:Bahnschrift;
+    color:white;
+    padding: 15px; 
+    font-size:20px;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+.button-container:hover
+{
+    background-color:#350b6e;
+    color: white; 
+}
+
+
+
+.backToTopButton
+{
+    display: flex;
+    justify-content: center;
+    margin-left:auto;
+    margin-right:auto;
+    font-size: 20px; 
+    font-family:Bahnschrift;
+    color:black;
+    padding: 15px; 
+    font-size:50px;
+    font-weight:bold;
+    text-decoration:none;
+    
+}
+
+.backToTopButton:hover
+{
+    width: 150px; 
+    background-color: #FF6D00; 
+}
+
+.contentTitleLeft /*this is for title of text blocks-left*/
+{
+    border-left: 10px #51FF00; 
+    border-top: 0px #51FF00; 
+    border-right: 0px #51FF00;
+    border-bottom: 0px #51FF00;
+    border-style: solid; 
+    padding: 40px; 
+    font-size: 35px; 
+    margin-left: 15px; 
+    margin-right: 15px; 
+    color: black; 
+    font-family: Bahnschrift; 
+    margin-top: 15px; 
+    font-weight: bold; 
+}
+
+.contentTitleRight /*this is for title of text blocks-right*/
+{
+    border-right: 10px #51FF00;
+    border-top: 0px #51FF00;
+    border-left: 0px #51FF00;
+    border-bottom: 0px #51FF00;
+    border-style: solid; 
+    padding: 40px; 
+    font-size: 35px; 
+    margin-left: 15px; 
+    margin-right: 15px; 
+    color: black; 
+    font-family: Bahnschrift; 
+    margin-top: 15px; 
+    font-weight: bold; 
+    text-align: right; 
+}
+
+.contentLeft /*this is for actual text-left*/
+{
+    color: black; 
+    font-family: "Bahnschrift Light"; 
+    font-size: 20px; 
+    font-weight: 300; 
+}
+
+.contentCentre /*this is for actual text-centre*/
+{
+    color: black; 
+    font-family: "Bahnschrift Light"; 
+    font-size: 20px; 
+    font-weight: 300; 
+    text-align: center; 
+}
+
+.contentRight /*this is for actual text-right*/
+{
+    color: black; 
+    font-family: "Bahnschrift Light"; 
+    font-size: 20px; 
+    font-weight: 300; 
+    text-align: right; 
+}
+
+
+.imageRight
+{
+    border: solid 10px #88fb99; 
+    float: right; 
+}
+
+.footer
+{
+    background-color:#00FFFA;
+    float: none; 
+    margin-left: 15px; 
+    margin-right: 15px; 
+    text-align: left; 
+    font-family: Bahnschrift; 
+    color: black;
+    padding: 25px; 
+    margin-bottom: 25px; 
+    clear: both; 
+}
+
+/*start of code for nav bar*/
+
+.navigationBar
+{
+    background-color: #00FFFA;
+    overflow: hidden; 
+    float: none; 
+    margin-left: 15px; 
+    margin-right: 15px; 
+    text-align: center; 
+    font-family: Bahnschrift; 
+    padding: 20px; 
+    margin-top: 20px; 
+    margin-bottom: 25px;
+    width: auto; 
+    
+}
+
+.class1 
+{
+    background-image:url(yellowDontDelete.png);
+    overflow: hidden; 
+    float: none; 
+    text-align: center; 
+    font-family: Bahnschrift; 
+    margin-top: 20px; 
+    margin-bottom: 25px;
+    width: auto;  
+    font-size: 16px; 
+    border: none;
+    padding: 10px; 
+}
+
+
+
+.navigationBar a
+{
+    float: none; 
+    color: black; 
+    font-size:16px; 
+    background-color: #00FFFA;
+    margin-right: 40px; 
+    text-align: center; 
+}
+
+
+.navigationBar a:hover 
+{
+    background-color: #857F74;
+    color: black; 
+    font-size: 18px; 
+}
+
+.navigationBar a.active 
+{
+    background-color: #95958a;
+    color: white; 
+    
+}
+
+.navigationBar a:visited
+{
+    color: black; 
+}
+
+/*end of code for nav bar*/
+
+.imageRow
+{
+    display: flex; 
+    justify-content: center; 
+}
+
+/*start of code for styling hyperlinks*/
+
+a:link
+{
+    color: black;
+    background-color: #00FFFA;
+}
+  
+  /* visited link */
+a:visited
+{
+    color: rgb(167, 167, 172);
+    background-color: #00FFFA;
+}
+
+/* mouse over link */
+a:hover
+{
+    background-image:url(thisGrey.png);
+    color: white;
+}
+
+/* selected link */
+a:active
+{
+    color: blue;
+    background-color: #D7FFC4;
+}
+
+/*end of code for styling hyperlinks*/
+
+.columns
+{
+    column-count: 3; 
+    column-gap: 20px; 
+    column-rule-style: solid; 
+    column-span: all; 
+    color: white;
+    background-color: #00FFFA;
+}
+
+.col-container
+{
+    display: table; /* Make the container element behave like a table */
+    width: 100%; /* Set full-width to expand the whole page */
+    background-color: #00FFFA;
+
+}
+  
+.col
+{
+    display: table-cell; /* Make elements inside the container behave like table cells */
+    background-color: #00FFFA;
+    text-align: center; 
+
+}
+
+div.scrollmenu
+{
+    background-color: #FF00FC;
+    overflow: auto;
+    white-space: nowrap;
+    margin: 15px;
+}
+  
+div.scrollmenu a
+{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollmenu a:hover
+{
+    background-color: #777;
+}
+
+
+ul.bulletPointsRight
+{
+    direction: rtl; 
+    text-align: right; 
+}
+
+
+#clockFaceOuter
+{
+  height: 600px;
+  width: 600px;
+  background-color: #FF00FC;
+  border-radius: 50%;
+  justify-content:left; 
+  position: relative; 
+  transform:rotate(180deg);
+  margin-left: 30px;
+  display: inline-block; 
+  
+}
+
+#clockFaceInner
+{
+    height: 500px; 
+    width: 500px; 
+    background-color: white; 
+    justify-content:left; 
+    border-radius: 50%;
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    margin: -250px 0px 0px -250px;
+}
+    
+
+
+#clockFaceDot
+{
+    height: 55px; 
+    width: 55px; 
+    background-color: black; 
+    display: block; 
+    margin-left:auto;
+    margin-right:auto;
+    justify-content:center; 
+    border-radius: 50%;
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    margin: -30px 0px 0px -30px;
+}
+
+#secondHand
+{
+    width: 10px; 
+    height: 235px; 
+    background-color: rgb(0, 0, 0);
+    display: block; 
+    margin-left:auto;
+    margin-right:auto;
+    justify-content:center; 
+    position: absolute; 
+    top: 51%;
+    left: 50%;
+    margin: -5px 0px 0px -5px;
+    transform-origin: 0% 0%;
+}
+
+#minuteHand
+{
+    width: 16px; 
+    height: 220px; 
+    background-color: rgb(0, 0, 0); 
+    display: block; 
+    margin-left:auto;
+    margin-right:auto;
+    justify-content:center; 
+    position: absolute; 
+    top: 51%;
+    left: 50%;
+    margin: -10px 0px 0px -10px;
+    transform-origin: 0% 0%;
+    
+}
+
+#hourHand
+{
+    width: 20px; 
+    height: 190px; 
+    background-color: rgb(0, 0, 0); 
+    display: block; 
+    margin-left:auto;
+    margin-right:auto;
+    justify-content:center; 
+    position: absolute; 
+    top: 53.5%;
+    left: 55.5%;
+    margin: -25px 0px 0px -25px;
+    transform-origin: 0% 0%;
+   
+}
+
+.clockLines
+{
+    width: 480px;
+    height: 15px; 
+    background-color: black; 
+    display: block; 
+    margin-left:auto;
+    margin-right:auto;
+    justify-content:center; 
+    position: absolute; 
+    top: 48%;
+    left: 2%;
+}
+
+.soundButton
+{
+    background-color:#FF6D00;
+    padding:20px;
+    width:200px;
+    margin:20px;
+    font-weight:bold;
+    font-family:bahnschrift;
+    font-size:20px;
+    color: white; 
+}
+
+.soundButton:hover
+{
+    background-color: #7c3703;
+    color: white; 
+}
+
+#pauseSoundButton
+{
+    font-family: Bahnschrift; 
+    background-color: #fff986;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    justify-content:center;
+    padding: 15px;
+    width: 160px; 
+    font-weight: bold; 
+    font-size: 20px;
+}
+
+#pauseSoundButton:hover
+{
+    background-color: #737b16;
+    color: white;
+}
